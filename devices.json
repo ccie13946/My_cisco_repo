@@ -1,0 +1,5 @@
+[ {"ip": "10.160.21.101",
+   "device_type": "cisco_ios_telnet"},
+  { "ip":"10.160.21.102",
+    "device_type": "cisco_ios_telnet"}
+  ]

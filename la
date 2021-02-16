@@ -1,0 +1,4 @@
+from Stephen_Ren import Student
+student1 = Student("stephen","41","176")
+print(student1.age)
+

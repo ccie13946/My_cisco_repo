@@ -1,0 +1,4 @@
+show version
+show clock
+show ip int brief
+show cdp neighbors

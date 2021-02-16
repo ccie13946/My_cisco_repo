@@ -1,0 +1,46 @@
+###output of show version
+
+
+Cisco Internetwork Operating System Software 
+IOS (tm) C2600 Software (C2600-C-M), Version 12.2(4)T1,  RELEASE SOFTWARE (fc1)
+TAC Support: http://www.cisco.com/tac
+Copyright (c) 1986-2001 by cisco Systems, Inc.
+Compiled Fri 26-Oct-01 00:19 by ccai
+Image text-base: 0x80008088, data-base: 0x809B0C1C
+
+ROM: System Bootstrap, Version 11.3(2)XA4, RELEASE SOFTWARE (fc1)
+
+Terminalserver01 uptime is 4 weeks, 2 days, 7 hours, 39 minutes
+System returned to ROM by error - a SegV exception, PC 0x80588BF0
+System image file is "flash:c2600-c-mz.122-4.T1.bin"
+
+cisco 2621 (MPC860) processor (revision 0x102) with 27648K/5120K bytes of memory.
+Processor board ID JAD04480UY5 (388535678)
+M860 processor: part number 0, mask 49
+Bridging software.
+SuperLAT software (copyright 1990 by Meridian Technology Corp).
+X.25 software, Version 3.0.0.
+TN3270 Emulation software.
+2 FastEthernet/IEEE 802.3 interface(s)
+1 Serial network interface(s)
+32 terminal line(s)
+32K bytes of non-volatile configuration memory.
+16384K bytes of processor board System flash (Read/Write)
+
+Configuration register is 0x2102
+###output of show clock
+
+
+*07:39:14.119 UTC Wed Mar 31 1993###output of show ip int brief
+
+
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            unassigned      YES NVRAM  up                    down    
+Serial0/0                  unassigned      YES NVRAM  down                  down    
+FastEthernet0/1            10.160.21.101   YES NVRAM  up                    up      
+Loopback0                  1.1.1.1         YES NVRAM  up                    up      ###output of show cdp neighbors
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
